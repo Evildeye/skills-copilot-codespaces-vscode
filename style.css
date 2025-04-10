@@ -1,0 +1,103 @@
+/* Reset dan pengaturan dasar */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.container {
+  width: 100%;
+  max-width: 900px;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: #4b89dc;
+}
+
+.input-section {
+  margin-bottom: 20px;
+}
+
+.input-section label {
+  font-size: 1rem;
+  color: #333;
+}
+
+.input-section input {
+  width: 60px;
+  padding: 8px;
+  margin-top: 10px;
+  margin-right: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.input-section button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  background-color: #4b89dc;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.input-section button:hover {
+  background-color: #3b6cbf;
+}
+
+.results-section {
+  margin-top: 30px;
+}
+
+.seed-box {
+  background-color: #fafafa;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.seed-box p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.seed-box ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.seed-box ul li {
+  font-size: 0.95rem;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.seed-box ul li span {
+  font-weight: bold;
+}
